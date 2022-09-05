@@ -419,6 +419,7 @@ body {
     letter-spacing: 0.04em;
     text-transform: capitalize;
     height: 60px;
+    min-width: 300px;
     padding-left: 20px;
     padding-right: 20px;
     border: 1px solid #f5efdb;
@@ -428,6 +429,13 @@ body {
     position: relative;
     background: url(../img/icons/select-arrow.svg) no-repeat 93% center;
   }
+
+  input[type="date"] {
+    color: $text-color;
+    min-width: 300px;
+    background-color: $title-color;
+  }
+
   &__btn {
     outline: none;
     border: none;

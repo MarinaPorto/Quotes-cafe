@@ -502,6 +502,7 @@ body {
   letter-spacing: 0.04em;
   text-transform: capitalize;
   height: 60px;
+  min-width: 300px;
   padding-left: 20px;
   padding-right: 20px;
   border: 1px solid #f5efdb;
@@ -512,6 +513,12 @@ body {
   cursor: pointer;
   position: relative;
   background: url(../img/icons/select-arrow.svg) no-repeat 93% center;
+}
+
+.reservations input[type="date"] {
+  color: #aaa;
+  min-width: 300px;
+  background-color: #dcca87;
 }
 
 .reservations__btn {
