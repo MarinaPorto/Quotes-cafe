@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quotes cafe</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="scss/style.css" />
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <a href="#" class="logo__link">Quotes</a>
+          </div>
+          <div class="menu__burger">
+            <span></span>
+
+          </div>
+          <nav class="header__menu">
+
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#about" class="menu__link">About us</a></li>
+              <li class="menu__item"><a href="#reservation" class="menu__link">Reservation</a></li>
+              <li class="menu__item"><a href="#menu" class="menu__link">Menu</a></li>
+              <li class="menu__item"><a href="#reviews" class="menu__link">Reviews</a></li>
+              <li class="menu__item"><a href="#blog" class="menu__link">Blog</a></li>
+              <li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
+            </ul>
+          </nav>
+          <ul class="header__auth-list">
+            <li class="header__auth-item"><a href="#" class="header__auth-link">Log in / Registration</a></li>
+            <li class="header__auth-item"><a href="#" class="header__auth-link">Book table</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="hero">
+          <div class="hero__content">
+            <p class="hero__subtitle">Try new flavors</p>
+            <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M33.5014 9.5C37.0847 9.5 39.9998 7.48129 39.9998 4.99995C39.9998 2.51861 37.0847 0.5 33.5014 0.5C30.112 0.5 27.3219 2.30637 27.0298 4.6018H22.3527V3.6552L-0.000213623 3.6552V6.34446L22.3528 6.34446V5.39798H27.0299C27.3221 7.69352 30.112 9.5 33.5014 9.5ZM21.4896 5.54839L0.863079 5.54839V4.45161H21.4896V5.54839ZM27.866 4.99995C27.866 2.95778 30.3942 1.2964 33.5015 1.2964C36.6088 1.2964 39.137 2.95778 39.137 4.99995C39.137 7.04222 36.6088 8.7037 33.5015 8.7037C30.3942 8.7037 27.866 7.04222 27.866 4.99995Z"
+                fill="#DCCA87" />
+            </svg>
+            <h1 class="hero__title">The good dinner time</h1>
+            <p class="hero__text">Try a new set of the best sushi in town. Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#" class="hero__btn btn">Explore menu</a>
+          </div>
+          <div class="hero__photo">
+            <img class="hero__img" src="img/hero-main.jpg" alt="course">
+          </div>
+        </div>
+      </div>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__info">
+              <h2 class="about__subtitle">About Us</h2>
+              <svg class='spoon-rotate' width="40" height="10" viewBox="0 0 40 10" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M33.5014 9.5C37.0847 9.5 39.9998 7.48129 39.9998 4.99995C39.9998 2.51861 37.0847 0.5 33.5014 0.5C30.112 0.5 27.3219 2.30637 27.0298 4.6018H22.3527V3.6552L-0.000213623 3.6552V6.34446L22.3528 6.34446V5.39798H27.0299C27.3221 7.69352 30.112 9.5 33.5014 9.5ZM21.4896 5.54839L0.863079 5.54839V4.45161H21.4896V5.54839ZM27.866 4.99995C27.866 2.95778 30.3942 1.2964 33.5015 1.2964C36.6088 1.2964 39.137 2.95778 39.137 4.99995C39.137 7.04222 36.6088 8.7037 33.5015 8.7037C30.3942 8.7037 27.866 7.04222 27.866 4.99995Z"
+                  fill="#DCCA87" />
+              </svg>
+              <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing
+                ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+              <a href="#" class="about__btn btn">Know More</a>
+            </div>
+            <img src="img/parsley.png" alt="parsley">
+            <div class="about__history">
+              <h2 class="about__subtitle">Our History</h2>
+              <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M33.5014 9.5C37.0847 9.5 39.9998 7.48129 39.9998 4.99995C39.9998 2.51861 37.0847 0.5 33.5014 0.5C30.112 0.5 27.3219 2.30637 27.0298 4.6018H22.3527V3.6552L-0.000213623 3.6552V6.34446L22.3528 6.34446V5.39798H27.0299C27.3221 7.69352 30.112 9.5 33.5014 9.5ZM21.4896 5.54839L0.863079 5.54839V4.45161H21.4896V5.54839ZM27.866 4.99995C27.866 2.95778 30.3942 1.2964 33.5015 1.2964C36.6088 1.2964 39.137 2.95778 39.137 4.99995C39.137 7.04222 36.6088 8.7037 33.5015 8.7037C30.3942 8.7037 27.866 7.04222 27.866 4.99995Z"
+                  fill="#DCCA87" />
+              </svg>
+              <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing
+                ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+              <a href="#" class="about__btn btn">Know More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reservations" id="reservation">
+        <div class="container">
+          <img src="img/logo.png" alt="main-decor" class="main-decor-logo reservations__main-decor">
+          <div class="reservations__body">
+            <p class="hero__subtitle">Reservation</p>
+            <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M33.5014 9.5C37.0847 9.5 39.9998 7.48129 39.9998 4.99995C39.9998 2.51861 37.0847 0.5 33.5014 0.5C30.112 0.5 27.3219 2.30637 27.0298 4.6018H22.3527V3.6552L-0.000213623 3.6552V6.34446L22.3528 6.34446V5.39798H27.0299C27.3221 7.69352 30.112 9.5 33.5014 9.5ZM21.4896 5.54839L0.863079 5.54839V4.45161H21.4896V5.54839ZM27.866 4.99995C27.866 2.95778 30.3942 1.2964 33.5015 1.2964C36.6088 1.2964 39.137 2.95778 39.137 4.99995C39.137 7.04222 36.6088 8.7037 33.5015 8.7037C30.3942 8.7037 27.866 7.04222 27.866 4.99995Z"
+                fill="#DCCA87" />
+            </svg>
+            <h2 class="about__subtitle">Book A Table</h2>
+            <form action="#" class="reservations__book">
+              <div class="reservations__items">
+                <select name="form[]" id="" class="form">
+                  <option value="1" selected>1 person</option>
+                  <option value="2">2 person</option>
+                  <option value="3">3 person</option>
+                  <option value="4">4 person</option>
+                </select>
+                <input type="date" class="form" value="24.08.2022">
+                <select name="form[]" id="" class="form">
+                  <option value="16.00" selected>16.00 PM</option>
+                  <option value="17.00">17.00 PM</option>
+                  <option value="18.00">18.00 PM</option>
+                  <option value="19.00">19.00 PM</option>
+                </select>
+              </div>
+              <button class="reservations__btn btn" type="submit">Book Now</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="menu-cafe" id="menu">
+        <div class="container">
+          <img src="img/logo.png" alt="main-decor" class="main-decor-logo menu-cafe__main-decor">
+          <ul class="menu-cafe__items">
+            <li class="menu-cafe__item"><a href="#" class="menu-cafe__link">Bar Menu</a></li>
+            <li class="menu-cafe__item"><a href="#" class="menu-cafe__link">Food Menu</a></li>
+            <li class="menu-cafe__item"><a href="#" class="menu-cafe__link">Desserts Menu</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="special-offers">
+        <div class="container">
+          <p class="hero__subtitle">Special</p>
+          <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M33.5014 9.5C37.0847 9.5 39.9998 7.48129 39.9998 4.99995C39.9998 2.51861 37.0847 0.5 33.5014 0.5C30.112 0.5 27.3219 2.30637 27.0298 4.6018H22.3527V3.6552L-0.000213623 3.6552V6.34446L22.3528 6.34446V5.39798H27.0299C27.3221 7.69352 30.112 9.5 33.5014 9.5ZM21.4896 5.54839L0.863079 5.54839V4.45161H21.4896V5.54839ZM27.866 4.99995C27.866 2.95778 30.3942 1.2964 33.5015 1.2964C36.6088 1.2964 39.137 2.95778 39.137 4.99995C39.137 7.04222 36.6088 8.7037 33.5015 8.7037C30.3942 8.7037 27.866 7.04222 27.866 4.99995Z"
+              fill="#DCCA87" />
+          </svg>
+          <h2 class="about__subtitle">Today’s Special</h2>
+          <div class="special-offers__body">
+            <h3 class="special-offers-menu"> Cocktails
+            </h3>
+            <ul class="special-offers-menu-list">
+              <li class="special-offers-menu-item">
+                <div class="special-offers-menu-item-description">
+                  <p class='special-offers-menu-title'>Aperol Spritz</p>
+                  <p class='special-offers-menu-title special-offers-menu-price'>$16</p>
+                </div>
+                <p>Aperol | Villa Marchesi prosecco | soda | 30ml </p>
+              </li>
+              <li class="special-offers-menu-item">
+                <div class="special-offers-menu-item-description">
+                  <p class='special-offers-menu-title'>Dark 'N' Stormy</p>
+                  <p class='special-offers-menu-title special-offers-menu-price'>$12</p>
+                </div>
+                <p>Dark rum | Ginger beer | Slice of lime</p>
+              </li>
+              <li class="special-offers-menu-item">
+                <div class="special-offers-menu-item-description">
+                  <p class='special-offers-menu-title'>Daiquiri</p>
+                  <p class='special-offers-menu-title special-offers-menu-price'>$18</p>
+                </div>
+                <p>Rum | Citrus juice | Sugar</p>
+              </li>
+              <li class="special-offers-menu-item">
+                <div class="special-offers-menu-item-description">
+                  <p class='special-offers-menu-title'>Old Fashioned </p>
+                  <p class='special-offers-menu-title special-offers-menu-price'>$18</p>
+                </div>
+                <p>Bourbon | Brown sugar | Angostura Bitters</p>
+              </li>
+              <li class="special-offers-menu-item">
+                <div class="special-offers-menu-item-description">
+                  <p class='special-offers-menu-title'>Negroni</p>
+                  <p class='special-offers-menu-title special-offers-menu-price'>$14</p>
+                </div>
+                <p>Gin | Sweet Vermouth | Campari | Orange garnish</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="quote">
+        <div class="container">
+          <div class="quote__inner">
+            <div class="quote__chef">
+              <img src="img/cook-main.jpg" alt="Chef">
+            </div>
+            <div class="quote__content">
+              <p class="hero__subtitle">Chef’s Word</p>
+              <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M33.5014 9.5C37.0847 9.5 39.9998 7.48129 39.9998 4.99995C39.9998 2.51861 37.0847 0.5 33.5014 0.5C30.112 0.5 27.3219 2.30637 27.0298 4.6018H22.3527V3.6552L-0.000213623 3.6552V6.34446L22.3528 6.34446V5.39798H27.0299C27.3221 7.69352 30.112 9.5 33.5014 9.5ZM21.4896 5.54839L0.863079 5.54839V4.45161H21.4896V5.54839ZM27.866 4.99995C27.866 2.95778 30.3942 1.2964 33.5015 1.2964C36.6088 1.2964 39.137 2.95778 39.137 4.99995C39.137 7.04222 36.6088 8.7037 33.5015 8.7037C30.3942 8.7037 27.866 7.04222 27.866 4.99995Z"
+                  fill="#DCCA87" />
+              </svg>
+              <h2 class="about__subtitle quote__subtitle"> cooking is art</h2>
+              <div class="quote__text">
+                <img class="quote__img" src="img/icons/quotes.svg" alt="quote">
+                <p class="quote__text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum in nisi
+                  fugiat, magnam amet, dignissimos repudiandae quae nesciunt eligendi iste, error obcaecati
+                  exercitationem inventore perspiciatis explicabo! Id nihil laudantium consectetur! Dolorum in nisi
+                  fugiat, magnam amet, dignissimos repudiandae quae nesciunt eligendi iste, error obcaecati
+                  exercitationem inventore perspiciatis explicabo! Id nihil laudantium consectetur!</p>
+              </div>
+              <p class="quote__signature">Andy Kandersen</p>
+              <img class="quote__signature-img" src="img/signature.png" alt="signature">
+            </div>
+          </div>
+        </div>
+  </div>
+  </section>
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <img src="img/logo.png" alt="main-decor" class="main-decor-logo reviews__main-decor">
+      <div class="reviews__body">
+        <p class="hero__subtitle">Reviews</p>
+        <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M33.5014 9.5C37.0847 9.5 39.9998 7.48129 39.9998 4.99995C39.9998 2.51861 37.0847 0.5 33.5014 0.5C30.112 0.5 27.3219 2.30637 27.0298 4.6018H22.3527V3.6552L-0.000213623 3.6552V6.34446L22.3528 6.34446V5.39798H27.0299C27.3221 7.69352 30.112 9.5 33.5014 9.5ZM21.4896 5.54839L0.863079 5.54839V4.45161H21.4896V5.54839ZM27.866 4.99995C27.866 2.95778 30.3942 1.2964 33.5015 1.2964C36.6088 1.2964 39.137 2.95778 39.137 4.99995C39.137 7.04222 36.6088 8.7037 33.5015 8.7037C30.3942 8.7037 27.866 7.04222 27.866 4.99995Z"
+            fill="#DCCA87" />
+        </svg>
+        <h2 class="about__subtitle quote__subtitle"> visitors' words</h2>
+        <div class="reviews__visitors">
+          <div class="reviews__visitors-item">
+            <img class="reviews__visitors-img" src="img/visitor-1.jpg" alt="visitor">
+            <div class="reviews__visitors-content">
+              <p class="reviews__visitors-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                suscipit, quia sunt libero neque similique dicta, dolorum quisquam atque temporibus distinctio
+                necessitatibus ipsum maxime iure nobis id quae ullam? Nostrum.</p>
+              <p class="reviews__visitors-signature">Agata</p>
+            </div>
+          </div>
+          <div class="reviews__visitors-item">
+            <img class="reviews__visitors-img" src="img/visitor-2.jpg" alt="visitor">
+            <div class="reviews__visitors-content">
+              <p class="reviews__visitors-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum architecto
+                optio soluta ullam tempora incidunt repudiandae. Cupiditate consequuntur quasi maxime, labore eos
+                praesentium esse consectetur. Reprehenderit, doloremque consequatur. Unde, doloribus?</p>
+              <p class="reviews__visitors-signature">Albert</p>
+            </div>
+          </div>
+          <div class="reviews__visitors-item">
+            <img class="reviews__visitors-img" src="img/visitor-4.jpg" alt="visitor">
+            <div class="reviews__visitors-content">
+              <p class="reviews__visitors-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
+                debitis incidunt itaque reprehenderit corrupti aspernatur atque non natus assumenda ipsa. Deserunt
+                architecto laudantium possimus ipsa, provident recusandae aperiam veritatis nostrum!</p>
+              <p class="reviews__visitors-signature">Omar</p>
+            </div>
+          </div>
+          <div class="reviews__visitors-item">
+            <img class="reviews__visitors-img" src="img/visitor-3.jpg" alt="visitor">
+            <div class="reviews__visitors-content">
+              <p class="reviews__visitors-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+                eveniet iusto et omnis similique quia quod, minima quas vel unde minus. Optio distinctio eum nobis
+                pariatur animi esse facere maxime.</p>
+              <p class="reviews__visitors-signature">Batty</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="video">
+    <div class="container">
+      <div class="video__wrapper">
+        <video src="video/video-main.mp4" controls class="video__movie">
+          Sorry, your browser doesn't support embedded videos!
+        </video>
+      </div>
+    </div>
+  </section>
+  <section class="blog" id="blog">
+    <div class="container">
+      <div class="blog__inner">
+        <p class="hero__subtitle">Blog</p>
+        <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M33.5014 9.5C37.0847 9.5 39.9998 7.48129 39.9998 4.99995C39.9998 2.51861 37.0847 0.5 33.5014 0.5C30.112 0.5 27.3219 2.30637 27.0298 4.6018H22.3527V3.6552L-0.000213623 3.6552V6.34446L22.3528 6.34446V5.39798H27.0299C27.3221 7.69352 30.112 9.5 33.5014 9.5ZM21.4896 5.54839L0.863079 5.54839V4.45161H21.4896V5.54839ZM27.866 4.99995C27.866 2.95778 30.3942 1.2964 33.5015 1.2964C36.6088 1.2964 39.137 2.95778 39.137 4.99995C39.137 7.04222 36.6088 8.7037 33.5015 8.7037C30.3942 8.7037 27.866 7.04222 27.866 4.99995Z"
+            fill="#DCCA87" />
+        </svg>
+        <h2 class="about__subtitle quote__subtitle"> New posts</h2>
+        <div class="blog__posts">
+          <div class="blog__post">
+            <img src="img/blog-1.jpg" alt="tips">
+            <div class="post-details">
+              <p class="post-date">17 Aug 2022</p>
+              <p class="post-author">Ronald</p>
+            </div>
+            <a href="#">
+              <h4 class="post__title">tips for prepping and caring for your pan</h4>
+            </a>
+            <p class="post__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis numquam cum aut,
+              necessitatibus maxime error dolorem, illum iure explicabo consequuntur repudiandae illo commodi esse
+              dolorum dolor minus quasi natus qui.</p>
+            <a href="#" class="post__more-link">
+              <p class="post__more">Read more</p>
+            </a>
+          </div>
+          <div class="blog__post">
+            <img src="img/blog-3.jpg" alt="tips">
+            <div class="post-details">
+              <p class="post-date">16 Apr 2022</p>
+              <p class="post-author">Professor</p>
+            </div>
+            <a href="#">
+              <h4 class="post__title">fish on the grill</h4>
+            </a>
+            <p class="post__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis numquam cum aut,
+              necessitatibus maxime error dolorem, illum iure explicabo consequuntur repudiandae illo commodi esse
+              dolorum dolor minus quasi natus qui.</p>
+            <a href="#" class="post__more-link">
+              <p class="post__more">Read more</p>
+            </a>
+          </div>
+          <div class="blog__post">
+            <img src="img/blog-2.jpg" alt="tips">
+            <div class="post-details">
+              <p class="post-date">16 Apr 2022</p>
+              <p class="post-author">Skiff</p>
+            </div>
+            <a href="#">
+              <h4 class="post__title">how to eat with chinese chopsticks</h4>
+            </a>
+            <p class="post__text">Lorem ipsum dolor, sit amet conandite explicabo consequuntur repudiandae illo commodi
+              esse dolorum dolor minus quasi natus qui.</p>
+            <a href="#" class="post__more-link">
+              <p class="post__more">Read more</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <img src="img/logo.png" alt="main-decor" class="main-decor-logo blog__main-decor">
+    </div>
+  </section>
+  <section class="photo-gallery">
+    <div class="container">
+      <div class="photo-gallery__inner">
+        <div class="hero__content photo-gallery__body">
+          <p class="hero__subtitle">New photos</p>
+          <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M33.5014 9.5C37.0847 9.5 39.9998 7.48129 39.9998 4.99995C39.9998 2.51861 37.0847 0.5 33.5014 0.5C30.112 0.5 27.3219 2.30637 27.0298 4.6018H22.3527V3.6552L-0.000213623 3.6552V6.34446L22.3528 6.34446V5.39798H27.0299C27.3221 7.69352 30.112 9.5 33.5014 9.5ZM21.4896 5.54839L0.863079 5.54839V4.45161H21.4896V5.54839ZM27.866 4.99995C27.866 2.95778 30.3942 1.2964 33.5015 1.2964C36.6088 1.2964 39.137 2.95778 39.137 4.99995C39.137 7.04222 36.6088 8.7037 33.5015 8.7037C30.3942 8.7037 27.866 7.04222 27.866 4.99995Z"
+              fill="#DCCA87" />
+          </svg>
+          <h2 class="hero__title about__subtitle quote__subtitle photo-gallery-subtitle">Photo gallery</h2>
+          <p class="hero__text photo-gallery-text">Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <a href="#" class="hero__btn btn">More photos</a>
+        </div>
+        <div class="photo-gallery__photos">
+          <img class="photos-img" src="img/gallery-1.jpg" alt="food">
+          <img class="photos-img" src="img/gallery-2.jpg" alt="food">
+          <img class="photos-img" src="img/gallery-3.jpg" alt="food">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="subscribe">
+    <div class="container">
+      <img src="img/logo.png" alt="main-decor" class="main-decor-logo subscribe__main-decor">
+      <div class="subscribe__inner">
+        <p class="hero__subtitle">
+          mailing list</p>
+        <svg width="40" height="10" viewBox="0 0 40 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M33.5014 9.5C37.0847 9.5 39.9998 7.48129 39.9998 4.99995C39.9998 2.51861 37.0847 0.5 33.5014 0.5C30.112 0.5 27.3219 2.30637 27.0298 4.6018H22.3527V3.6552L-0.000213623 3.6552V6.34446L22.3528 6.34446V5.39798H27.0299C27.3221 7.69352 30.112 9.5 33.5014 9.5ZM21.4896 5.54839L0.863079 5.54839V4.45161H21.4896V5.54839ZM27.866 4.99995C27.866 2.95778 30.3942 1.2964 33.5015 1.2964C36.6088 1.2964 39.137 2.95778 39.137 4.99995C39.137 7.04222 36.6088 8.7037 33.5015 8.7037C30.3942 8.7037 27.866 7.04222 27.866 4.99995Z"
+            fill="#DCCA87" />
+        </svg>
+        <h2 class="about__subtitle quote__subtitle"> subscribe to our best offers</h2>
+        <div class="subscribe__form-body">
+          <form action="" class="subscribe__form">
+            <input type="text" placeholder="Email" class="subscribe__input">
+            <button class="subscribe__btn  reservations__btn btn" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer class="footer" id="contacts">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="contacts footer__info">
+          <p class="contacts__title">Contact Us</p>
+          <p class="contacts__address">1 A 13rd St, New York, NY 50019, USA</p>
+          <p class="contacts__phone">+1 212-344-1230</p>
+          <p class="contacts__phone">+1 212-555-1230</p>
+        </div>
+        <div class="social footer__info">
+          <div class="header__logo">
+            <a href="#" class="logo__link social__logo">Quotes</a>
+          </div>
+          <p class="social__subtitle">The best solution for the best dinner</p>
+          <ul class="social__items">
+            <li class="social__item"><a href="#" class="social__item-link"><img src="img/icons/fb.svg" alt="fb"></a>
+            </li>
+            <li class="social__item"><a href="#" class="social__item-link"><img src="img/icons/inst.svg" alt="inst"></a>
+            </li>
+            <li class="social__item"><a href="#" class="social__item-link"><img src="img/icons/tw.svg" alt="tw"></a>
+            </li>
+          </ul>
+          <p class="social__rights">2022 Quotes.<br> All Rights reserved.</p>
+        </div>
+        <div class="working footer__info">
+          <p class="contacts__title">Working Hours</p>
+          <p class="working__item">Monday-Friday:<br>08:00 am -12:00 am</p>
+          <p class="working__item">Saturday-Sunday:<br>07:00am -11:00 pm</p>
+        </div>
+      </div>
+      <p class="social__rights-mob">2022 Quotes.<br> All Rights reserved.</p>
+      <a href='#'>
+        <p class="footer__top">TOP</p>
+      </a>
+    </div>
+  </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+
+</html>
