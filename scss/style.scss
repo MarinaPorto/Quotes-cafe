@@ -625,7 +625,7 @@ body {
     position: relative;
   }
 
-  &-decor {
+  &__main-decor {
     position: absolute;
     top: -40px;
     right: 20px;
@@ -722,14 +722,15 @@ body {
     padding-bottom: 64px;
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 48px;
   }
 
   &__post {
     max-width: 30%;
     text-align: left;
-    min-height: 660px;
     position: relative;
+    display: flex;
+    flex-direction: column;
   }
 
   .post-details {
@@ -768,6 +769,7 @@ body {
     line-height: 175%;
     letter-spacing: 0.04em;
     margin-bottom: 16px;
+    flex: 1 1 auto;
   }
 
   .post__more-link {
@@ -777,8 +779,6 @@ body {
     line-height: 175%;
     letter-spacing: 0.04em;
     color: $title-color;
-    position: absolute;
-    bottom: 0;
   }
   .post-author {
     position: relative;
@@ -942,6 +942,10 @@ body {
 
   .social__item-link:hover img {
     scale: 1.2;
+  }
+
+  .form__date {
+    width: 100%;
   }
 
   .social__rights-mob {
@@ -1143,7 +1147,7 @@ body {
 
   .quote__inner {
     flex-direction: column;
-    gap: 60px;
+    gap: 32px;
   }
 
   .quote__chef img {
@@ -1256,6 +1260,16 @@ body {
 }
 
 @media screen and (max-width: 440px) {
+  .hero {
+    padding: 40px 30px 60px;
+  }
+
+  .hero__subtitle {
+    margin-bottom: 14px;
+  }
+  .hero__title {
+    margin-top: 14px;
+  }
   .menu-cafe {
     .container {
       height: 440px;
@@ -1279,5 +1293,13 @@ body {
   }
   .photo-gallery__photos {
     max-width: 320px;
+  }
+  .quote__img {
+    width: 36px;
+    top: -10px;
+    left: 12px;
+  }
+  .quote__subtitle {
+    margin-bottom: 30px;
   }
 }

@@ -740,7 +740,7 @@ body {
   position: relative;
 }
 
-.reviews-decor {
+.reviews__main-decor {
   position: absolute;
   top: -40px;
   right: 20px;
@@ -854,14 +854,20 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 32px;
+  gap: 48px;
 }
 
 .blog__post {
   max-width: 30%;
   text-align: left;
-  min-height: 660px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .blog .post-details {
@@ -905,6 +911,9 @@ body {
   line-height: 175%;
   letter-spacing: 0.04em;
   margin-bottom: 16px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .blog .post__more-link {
@@ -914,8 +923,6 @@ body {
   line-height: 175%;
   letter-spacing: 0.04em;
   color: #dcca87;
-  position: absolute;
-  bottom: 0;
 }
 
 .blog .post-author {
@@ -1115,6 +1122,10 @@ body {
   scale: 1.2;
 }
 
+.footer .form__date {
+  width: 100%;
+}
+
 .footer .social__rights-mob {
   display: none;
   text-align: center;
@@ -1299,7 +1310,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 60px;
+    gap: 32px;
   }
   .quote__chef img {
     max-width: 70%;
@@ -1424,6 +1435,15 @@ body {
 }
 
 @media screen and (max-width: 440px) {
+  .hero {
+    padding: 40px 30px 60px;
+  }
+  .hero__subtitle {
+    margin-bottom: 14px;
+  }
+  .hero__title {
+    margin-top: 14px;
+  }
   .menu-cafe .container {
     height: 440px;
   }
@@ -1449,6 +1469,14 @@ body {
   }
   .photo-gallery__photos {
     max-width: 320px;
+  }
+  .quote__img {
+    width: 36px;
+    top: -10px;
+    left: 12px;
+  }
+  .quote__subtitle {
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
