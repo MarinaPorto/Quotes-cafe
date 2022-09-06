@@ -373,7 +373,7 @@ body {
   &__inner div {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    //gap: 30px;
     flex: 0 0 30%;
   }
 
@@ -385,12 +385,15 @@ body {
     letter-spacing: 0.03em;
     text-transform: capitalize;
     color: $title-color;
+    margin-bottom: 16px;
   }
   &__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 175%;
     letter-spacing: 0.04em;
+    margin-bottom: 32px;
+    margin-top: 16px;
   }
 
   .spoon-rotate {
@@ -484,9 +487,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px 50px;
+    //gap: 20px 50px;
     max-width: 600px;
     padding-top: 80px !important;
+    
+  }
+  &__item {
+    margin-bottom: 20px !important;
   }
 
   &__link {
@@ -497,6 +504,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: capitalize;
     color: $white-color;
+    
   }
 
   &__link:hover {
@@ -655,13 +663,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 80px;
+    //gap: 80px;
     padding-top: 80px;
   }
 
   &__visitors-item {
     display: flex;
-    gap: 30px;
+    //gap: 30px;
+    margin-bottom: 80px;
   }
 
   &__visitors-content {
@@ -676,6 +685,9 @@ body {
     line-height: 175%;
     letter-spacing: 0.04em;
     margin-bottom: 20px;
+  }
+  &__visitors-img {
+    margin-right: 30px;
   }
 
   &__visitors-signature {
@@ -884,8 +896,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-  }
+      }
 
   &__input {
     width: 636px;
@@ -899,6 +910,7 @@ body {
     letter-spacing: 0.04em;
     text-transform: capitalize;
     color: #aaaaaa;
+    margin-bottom: 30px;
   }
 }
 .footer {
@@ -948,6 +960,10 @@ body {
     margin-bottom: 20px;
   }
 
+  .contacts__phone {
+    color: $text-color;
+  }
+
   .social__subtitle {
     padding-top: 20px;
     padding-bottom: 40px;
@@ -956,8 +972,10 @@ body {
   .social__items {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-bottom: 120px;
+        margin-bottom: 120px;
+  }
+  .social__item:not(:last-child) {
+    margin-right: 30px;
   }
 
   .social__item-link:hover img {
@@ -1110,8 +1128,11 @@ body {
   }
   .footer__inner {
     flex-direction: column;
-    gap: 60px;
     padding: 0 60px;
+  }
+
+  .footer__info:not(:last-child) {
+    margin-bottom: 60px;
   }
   .social {
     order: 3;
@@ -1196,7 +1217,15 @@ body {
   }
   .photo-gallery__photos {
     max-width: 600px;
+    padding-top: 30px;
+    gap: 0;
   }
+  .photos-img {
+    margin-right: 30px;
+
+
+  }
+
   .subscribe {
     padding: 120px 0;
   }
