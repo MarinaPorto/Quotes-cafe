@@ -126,13 +126,17 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 5px 32px;
+    //gap: 5px 32px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 175%;
     letter-spacing: 0.04em;
     margin-right: 20px;
+  }
+
+  .menu__item {
+    margin-right: 30px;
   }
   .menu__link,
   .header__auth-link {
@@ -142,12 +146,13 @@ body {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    gap: 5px 50px;
+    // gap: 5px 50px;
     align-self: stretch;
     align-items: center;
   }
   &__auth-item {
     position: relative;
+    margin-right: 50px;
     &:not(:last-child) {
       &::after {
         content: "";
@@ -409,10 +414,13 @@ body {
     box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
   }
   &__items {
-    padding: 64px 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 32px;
+    padding: 64px 30px;
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    // gap: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   .form {
     background-color: #0c0c0c;
@@ -420,6 +428,7 @@ body {
     text-transform: capitalize;
     height: 60px;
     min-width: 300px;
+    //width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     border: 1px solid #f5efdb;
@@ -430,10 +439,13 @@ body {
     background: url(../img/icons/select-arrow.svg) no-repeat 93% center;
   }
 
+  .form:not(:last-child) {
+    margin-right: 32px;
+  }
+
   input[type="date"] {
     color: $text-color;
-    min-width: 300px;
-    background-color: $title-color;
+    
   }
 
   &__btn {
@@ -1072,6 +1084,16 @@ body {
   .blog__post {
     max-width: 43%;
   }
+
+  .reservations__items {
+    flex-direction: column;
+    
+  }
+ 
+  .reservations .form:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 22px;
+  }
 }
 
 @media screen and (max-width: 920px) {
@@ -1288,6 +1310,8 @@ body {
     &__link {
       font-size: 28px;
     }
+
+   
   }
   .special-offers .container {
     padding-top: 40px;
@@ -1310,4 +1334,12 @@ body {
   .quote__subtitle {
     margin-bottom: 30px;
   }
+
+  .reservations__items {
+    padding: 64px 10px;
+  }
+  .reservations .form {
+    min-width: 260px;
+      }
+    
 }

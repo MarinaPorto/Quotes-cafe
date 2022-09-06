@@ -138,13 +138,16 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 5px 32px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 175%;
   letter-spacing: 0.04em;
   margin-right: 20px;
+}
+
+.header .menu__item {
+  margin-right: 30px;
 }
 
 .header .menu__link,
@@ -161,7 +164,6 @@ body {
           justify-content: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 5px 50px;
   -ms-flex-item-align: stretch;
       align-self: stretch;
   -webkit-box-align: center;
@@ -171,6 +173,7 @@ body {
 
 .header__auth-item {
   position: relative;
+  margin-right: 50px;
 }
 
 .header__auth-item:not(:last-child)::after {
@@ -489,12 +492,15 @@ body {
 }
 
 .reservations__items {
-  padding: 64px 0;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  padding: 64px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .reservations .form {
@@ -515,10 +521,12 @@ body {
   background: url(../img/icons/select-arrow.svg) no-repeat 93% center;
 }
 
+.reservations .form:not(:last-child) {
+  margin-right: 32px;
+}
+
 .reservations input[type="date"] {
   color: #aaa;
-  min-width: 300px;
-  background-color: #dcca87;
 }
 
 .reservations__btn {
@@ -1231,6 +1239,16 @@ body {
   .blog__post {
     max-width: 43%;
   }
+  .reservations__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .reservations .form:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 22px;
+  }
 }
 
 @media screen and (max-width: 920px) {
@@ -1484,6 +1502,12 @@ body {
   }
   .quote__subtitle {
     margin-bottom: 30px;
+  }
+  .reservations__items {
+    padding: 64px 10px;
+  }
+  .reservations .form {
+    min-width: 260px;
   }
 }
 /*# sourceMappingURL=style.css.map */
