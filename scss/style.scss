@@ -1337,6 +1337,12 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .reviews__visitors-img {
+    margin-bottom: 20px;
+  }
+  .reservations input[type="date"] {
+    min-width: 300px;
+  }
   .photo-gallery__photos {
     max-width: 320px;
   }
