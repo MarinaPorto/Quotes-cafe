@@ -558,7 +558,6 @@ body {
   background: url(../img/menu-bg-coctails.png) no-repeat center bottom;
   position: relative;
   height: 800px;
-  color: red;
 }
 
 .menu-cafe .main-decor {
@@ -784,6 +783,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 80px;
+  margin-right: 24px;
 }
 
 .reviews__visitors-content {
